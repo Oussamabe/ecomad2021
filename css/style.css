@@ -119,72 +119,6 @@ sliders
 }
 
 /*=======================
-categorie
-=========================*/
-/* .card-categorie{
-	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-  border-radius: 15px;
-  position: relative;
-} */
-
-.categorie-box {
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
-  border-radius: 18px;
-  overflow: hidden;
-  position: relative;
-}
-
-.categorie-box img {
-  width: 100%;
-  height: auto;
-  -webkit-transition: -webkit-transform 0.5s ease;
-  transition: -webkit-transform 0.5s ease;
-  transition: transform 0.5s ease;
-  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
-}
-
-.categorie-box:hover img {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-}
-
-/* Overlay effect */
-.discover-overlay {
-  position: absolute;
-  top: 85%;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: #33b5e5;
-  opacity: 1;
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-}
-
-.categorie-details h6 {
-  padding: 15px 0;
-  color: #fafafa;
-}
-
-/* .categorie-box:hover  .discover-overlay  {
-	opacity: 1;
-  } */
-
-.carde-title h4 {
-  margin-top: 12px;
-  font-size: 23px;
-  font-weight: 500;
-  color: #33b5e5;
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-}
-
-.carde-title h4:hover {
-  color: #0d47a1;
-}
-
-/*=======================
 product vendu
 =========================*/
 .product {
@@ -653,14 +587,7 @@ responsive
   .home-content-inner {
     height: 40vh;
   }
-  .service {
-    margin-bottom: 14px;
-  }
-
-  .client-feed {
-    margin-bottom: 14px;
-  }
-
+ 
   .footer {
     background-color: #33b5e5;
     padding: 60px 0 0 0;
@@ -670,9 +597,9 @@ responsive
     margin-bottom: 22px;
   }
 
-  .clients-info {
+  /* .clients-info {
     margin-bottom: 180px;
-  }
+  } */
 
   .title-info h4 {
     padding: 18px 0;
@@ -683,9 +610,9 @@ responsive
     margin-bottom: 9px;
     font-size: 22px;
   }
-  .product-desc {
+  /* .product-desc {
     margin-top: -130px;
-  }
+  } */
 
   .product-desc p {
     font-size: 17px;
