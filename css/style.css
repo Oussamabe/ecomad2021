@@ -346,7 +346,7 @@ images products
 
 .img-zoom img {
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
-  height: 500px;
+  /* height: 500px; */
   width: 100%;
 }
 .container-img {
